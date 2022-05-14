@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  background-image: url(images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a ,
+span{
+  font-family: serif;
+}
+h1 {
+  font-size: 76px;
+  margin: 10px 0px;
+}
+
+.header-caption {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header p {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+button {
+  padding: 20px 30px;
+  margin: 20px 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-brown {
+  background-color: #c1ab84;
+}
+
+.btn-white {
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+
+.logo {
+  color: aliceblue;
+  float: left;
+}
+
+.logo img {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.links {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links li {
+  float: left;
+  padding: 20px;
+}
+
+.links a {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* baaking */
+
+.baking {
+  padding: 50px 0px;
+
+  text-align: center;
+}
+
+.baking-item {
+  width: 33.333%;
+  float: left;
+  padding: 18px;
+}
+
+.baking-item img {
+  width: 100%;
+}
+.baking h2 {
+  font-size: 30px;
+  color: #303030;
+}
+
+.baking .sub-title {
+  color: #888888;
+  margin: 20px 0px;
+  font-size: 17px;
+}
+
+.baking-caption{
+  padding: 20px 0px;
+}
+
+.baking-caption p{
+  color:#686868;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.baking-caption h3{
+  margin: 5px 0px;
+}
+
+
+/* media query */
+
+/* responsive web  design */
+
+
+/* footer */
+
+.footer{
+  background-color:#403D38;
+  padding: 50px 0px;
+}
+
+.footer .item{
+width: 25%;
+float: left;
+padding:20px;
+}
+
+.footer span{
+  font-size: 18px;
+  color: #fff;
+  margin: 20px 0px;
+  display: block;
+}
+
+.footer p{
+  color: #797979;
+}
+
+.line{
+  width: 90%;
+  height: 1px;
+  background-color: rgba(255,255,255,0.05);
+}
+
+.footer li{
+  margin: 10px 0px;
+
+}
+
+.footer li p{
+  padding: 5px 0px;
+}
+
+.footer .map{
+  background-image: url(images/contact-details-map.png);
+  background-image: cover;
+  background-position: center;
+  filter: invert(1);
+}
